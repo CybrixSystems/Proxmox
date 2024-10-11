@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -s https://raw.githubusercontent.com/tteck/Proxmox/main/misc/build.func)
+source <(curl -s https://raw.githubusercontent.com/CybrixSystems/Proxmox/wip_authelia/misc/build.func)
 # Copyright (c) 2021-2024 tteck
 # Author: tteck
 # Co-Author:: Mateusz Krawczuk
@@ -29,7 +29,7 @@ var_version="12"
 variables
 color
 catch_errors
-
+ 
 function default_settings() {
   CT_TYPE="0"
   PW=""
